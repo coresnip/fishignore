@@ -31,7 +31,7 @@ fish install.fish
 Restart your terminal or reload the function:
 
 ```fish
-source ~/.config/fish/functions/gitignore.fish
+source ~/.config/fish/functions/fishignore.fish
 ```
 
 ## usage
@@ -39,31 +39,31 @@ source ~/.config/fish/functions/gitignore.fish
 Generate a `.gitignore`:
 
 ```fish
-gitignore node
+fishignore node
 ```
 
 Combine multiple templates:
 
 ```fish
-gitignore node python rust
+fishignore node python rust
 ```
 
 Append to an existing `.gitignore`:
 
 ```fish
-gitignore python --append
+fishignore python --append
 ```
 
 Overwrite an existing `.gitignore`:
 
 ```fish
-gitignore node --force
+fishignore node --force
 ```
 
 Interactive mode:
 
 ```fish
-gitignore
+fishignore
 ```
 
 ## options
@@ -77,5 +77,5 @@ gitignore
 ## uninstallation
 
 ```fish
-rm ~/.config/fish/functions/gitignore.fish
+rm ~/.config/fish/functions/fishignore.fish
 ```

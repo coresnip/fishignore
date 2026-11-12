@@ -1,6 +1,6 @@
 #!/usr/bin/fish
 
-function gitignore --description "generate .gitignore files."
+function fishignore --description "generate .gitignore files."
     set -l templates
     set -l append false
     set -l force false
@@ -11,7 +11,7 @@ function gitignore --description "generate .gitignore files."
             case --force -f
                 set force true
             case --help -h
-                echo "usage: gitignore [templates...] [options]"
+                echo "usage: fishignore [templates...] [options]"
                 echo ""
                 echo "templates: node python rust go java cpp react flutter"
                 echo ""
