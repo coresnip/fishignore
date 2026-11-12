@@ -84,4 +84,4 @@ function fishignore --description "generate .gitignore files."
     echo "generated .gitignore successfully -- enjoy!"
     echo "location: "(pwd)"/.gitignore"
 end
-gitignore $argv
+fishignore $argv
